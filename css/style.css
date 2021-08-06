@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+html {
+    scroll-behavior: smooth;
+   
+    width: 100vw;
+    overflow-x: hidden;
+      
+  }
+
+.title{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.scroll-top{
+    color:#9bff3d ;
+   
+   font-size: 1.2rem;
+   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+.scroll-top:hover{
+    opacity: 0.8;
+    color: #9bff3da2;
+}
+.lead{
+    font-family: 'Great Vibes', cursive;
+}
+.card-1{
+    background-color: #8AC926;
+}
+.card-2{
+    background-color: #FF595E;
+}
+.card-3{
+    background-color: #FFCA3A;
+}
+.navbar{
+    background-color: #bbbbfb;
+}
+.navbar-brand:hover{
+   color: #ff370088;
+}
+.navbar-brand{
+ 
+   color : #ff4612;
+}
+@media only screen and (max-width:768px) {
+    .nav-link{
+        text-align: center;
+    }
+    .scroll-top{
+        color:#b9ff77 ;
+        position: relative;
+        padding: 2rem;
+       font-size: 1.2rem;
+       text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    }
+   .meal{
+       text-align: center;
+       padding: 1rem;
+       font-size: 2.9rem;
+       color: rgb(231, 248, 243);
+       font-family: 'Great Vibes', cursive;
+   }
+    .lead{
+        padding: 1rem ;
+       
+        text-align: center;
+        font-size: 1.9rem;
+    }
+    .card-1,.card-2,.card-3{
+        overflow:scroll;
+       
+        height: 700px;
+       
+        color: white;
+        margin: 0.5rem;
+    }
+    .nav-link{
+        color: black;
+    }
+    .navbar-brand{
+        margin: 0.6rem;
+        font-size: 1.5rem;
+       color : #6d1ae2;
+    }
+}
+@media only screen and (min-width:992px){
+    .scroll-top{
+        color:#9bff3d ;
+       margin: 1rem 10rem;
+       font-size: 1.2rem;
+       text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    }
+   .meal{
+       text-align: center;
+       padding: 1rem;
+       font-size: 2.9rem;
+       color: rgb(231, 248, 243);
+       font-family: 'Great Vibes', cursive;
+   }
+    .lead{
+        padding:3rem 2rem ;
+       
+        text-align: center;
+        font-size: 2rem;
+    }
+    .card-1,.card-2,.card-3{
+
+        height: 1000px;
+       
+        color: white;
+        margin: 1.6rem;
+    }
+    .nav-link{
+        display: none;
+    }
+    .navbar-brand{
+        margin: 1rem;
+        font-size: 1.5rem;
+       color : #6d1ae2;
+    }
+    
+}
