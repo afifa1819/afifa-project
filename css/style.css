@@ -91,7 +91,7 @@ body{
        color : #6d1ae2;
     }
 }
-@media only screen and (min-width:992px){
+@media only screen and (min-width:769px){
     .scroll-top{
         color:#9bff3d ;
        margin: 1rem 10rem;
